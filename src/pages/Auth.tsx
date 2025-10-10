@@ -165,9 +165,6 @@ const Auth = () => {
                   {loading ? "Please wait..." : isLogin ? "Sign In" : "Create Account"}
                 </Button>
 
-                <p className="text-center text-sm text-muted-foreground mt-4">
-                  Demo credentials: {role}@events.com / any password
-                </p>
               </form>
             </Tabs>
           </CardContent>
